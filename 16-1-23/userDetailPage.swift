@@ -10,6 +10,7 @@ import UIKit
 class userDetailPage: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
     
+    @IBOutlet weak var userNameTextFiled: UITextField!
     @IBOutlet weak var submitLable: UIButton!
     
     @IBOutlet weak var genderTextFiled: UITextField!
@@ -21,6 +22,7 @@ class userDetailPage: UIViewController, UIImagePickerControllerDelegate & UINavi
     @IBOutlet weak var img: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        Sqlite.createFile()
         submitLable.layer.cornerRadius = 5
         submitLable.layer.masksToBounds = true
     }
@@ -50,6 +52,13 @@ class userDetailPage: UIViewController, UIImagePickerControllerDelegate & UINavi
         present(gallery, animated: true, completion: nil)
     }
     @IBAction func submitButtonAction(_ sender: UIButton) {
+        
+        
+        
+        Sqlite.addData( firstName: firstNameTextField.text!,name: userNameTextFiled.text!)
+        
+        
+        
         if firstNameTextField.text == "" {
             showAlert(tital: "Enter you first name")
         }

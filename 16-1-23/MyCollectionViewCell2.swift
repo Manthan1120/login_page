@@ -11,8 +11,7 @@ class MyCollectionViewCell2: UICollectionViewCell {
    
     @IBOutlet weak var imageForUser: UIImageView!
     @IBOutlet weak var lableForUserName: UILabel!
-    
     @IBOutlet weak var redioButton: UIImageView!
     @IBOutlet weak var messege: UIButton!
-}
 
+}

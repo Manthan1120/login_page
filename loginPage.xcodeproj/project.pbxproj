@@ -22,6 +22,8 @@
 		DED2E519299B6509004EAF03 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2E518299B6509004EAF03 /* MyCollectionViewCell.swift */; };
 		DED2E51F299B71A2004EAF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED2E51E299B71A2004EAF03 /* Assets.xcassets */; };
 		DED2E521299B740B004EAF03 /* MyCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED2E520299B740B004EAF03 /* MyCollectionViewCell2.swift */; };
+		DEE2E0AF29C452D900C553BF /* messegeForManthan.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2E0AE29C452D900C553BF /* messegeForManthan.swift */; };
+		DEE4170729DC089F00214EFC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE4170629DC089F00214EFC /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		DED2E518299B6509004EAF03 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		DED2E51E299B71A2004EAF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED2E520299B740B004EAF03 /* MyCollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell2.swift; sourceTree = "<group>"; };
+		DEE2E0AE29C452D900C553BF /* messegeForManthan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messegeForManthan.swift; sourceTree = "<group>"; };
+		DEE4170629DC089F00214EFC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		DE0A5E6D297512A800542CE2 = {
 			isa = PBXGroup;
 			children = (
+				DEE2E0AE29C452D900C553BF /* messegeForManthan.swift */,
 				DE0A5E78297512A800542CE2 /* 16-1-23 */,
 				DE0A5E77297512A800542CE2 /* Products */,
 			);
@@ -84,6 +89,7 @@
 				DE1965AB2977D73200A13CE2 /* HomePage.swift */,
 				DE1965A92977D25100A13CE2 /* userDetailPage.swift */,
 				DE0A5E7F297512A800542CE2 /* Main.storyboard */,
+				DEE4170629DC089F00214EFC /* File.swift */,
 				DED2E520299B740B004EAF03 /* MyCollectionViewCell2.swift */,
 				DE1965A72977CED500A13CE2 /* signInPage.swift */,
 				DE0A5E84297512A900542CE2 /* LaunchScreen.storyboard */,
@@ -173,6 +179,8 @@
 				DED2E521299B740B004EAF03 /* MyCollectionViewCell2.swift in Sources */,
 				DE1965AA2977D25100A13CE2 /* userDetailPage.swift in Sources */,
 				DE0A5E7E297512A800542CE2 /* ViewController.swift in Sources */,
+				DEE2E0AF29C452D900C553BF /* messegeForManthan.swift in Sources */,
+				DEE4170729DC089F00214EFC /* File.swift in Sources */,
 				DE1965AC2977D73200A13CE2 /* HomePage.swift in Sources */,
 				DE72AC67297666F700E8C407 /* NewPasswordPage.swift in Sources */,
 				DE0A5E7A297512A800542CE2 /* AppDelegate.swift in Sources */,

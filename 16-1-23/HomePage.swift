@@ -53,19 +53,26 @@ class HomePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             cell2.imageForUser.image = UIImage(named: "\(imageArrayForUser[indexPath.row])")
             cell2.lableForUserName.text = lableArrayForUserName[indexPath.row]
             
+            
             if selectCell == indexPath.row {
                 cell2.redioButton.image = UIImage(systemName: "circle.fill")
             }
             else {
                 cell2.redioButton.image = UIImage(systemName: "circle")
             }
+
+
             return cell2
             
         }
-       
-            
     }
+   
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+      
+    
         CollectionView2.reloadData()
+        
+        
+        
     }
 }

@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        Sqlite.createFile()
         signInLablr.layer.cornerRadius = 5
         signInLablr.layer.masksToBounds = true
     }
@@ -24,6 +25,8 @@ class ViewController: UIViewController {
         navigationForForgotePage()
     }
     @IBAction func LoginButtonaction(_ sender: UIButton) {
+        
+        
         if userNameTextFiled.text == "" && passwordTextFiled.text == "" {
             showAlert(tital: "Please enter your user name & password")
         }
@@ -49,6 +52,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func signInButtonAction(_ sender: UIButton) {
+    
         navigationForSignInPage()
     }
     func showAlert(tital:String) {
